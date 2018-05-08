@@ -1,2 +1,3 @@
-# notes
-My Knowledge Notes
+# 我的知识笔记
+记录点滴知识，积累智慧财富。
+联系邮件：[top398@139.com]
