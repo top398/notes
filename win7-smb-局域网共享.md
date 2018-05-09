@@ -4,10 +4,7 @@
 
 * 控制台输入
 
-      net user guest active
-
-  启用该账户。
-
-      net user guest *|password
-
-  取消/设置密码。
+    net user guest active
+    :: 启用该账户。
+    net user guest *|password
+    :: 取消/设置密码。
