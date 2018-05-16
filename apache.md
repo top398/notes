@@ -1,7 +1,8 @@
-* 网址
-
-        [http://httpd.apache.org/docs/current/platform/windows.html#down]
+* 网址：
+        [Windows 版本](http://httpd.apache.org/docs/current/platform/windows.html#down)
         [首选](https://www.apachehaus.com/cgi-bin/download.plx#OSSLUP24VC11)
+
+* 通过修改 <apache目录>/conf/httpd.conf 进行配置。
 
 * 设置服务器根目录
 
@@ -40,4 +41,4 @@
 * 运行
 
         # 无须运行 php
-        <apache的bin目录>\httpd.exe
+        <apache目录>\bin\httpd.exe
