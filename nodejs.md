@@ -7,5 +7,5 @@
 
 * 设置环境变量：
 
-        set NODE_PATH = <nodejs.exe 所在路径>
-        PATH = %path%;%NODE_PATH%\;%NODE_PATH%\node_modules;<自定全局路径>;
+        set NODE_PATH = <node_modules 所在路径>
+        PATH = %path%;<nodejs.exe所在路径>
