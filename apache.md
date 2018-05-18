@@ -1,6 +1,7 @@
 * 网址：
         [Windows 版本](http://httpd.apache.org/docs/current/platform/windows.html#down)
         [首选](https://www.apachehaus.com/cgi-bin/download.plx#OSSLUP24VC11)
+        [url重写语法参考](https://httpd.apache.org/docs/trunk/mod/mod_rewrite.html)
 
 * 通过修改 <apache目录>/conf/httpd.conf 进行配置。
 
