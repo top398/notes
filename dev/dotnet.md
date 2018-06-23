@@ -1,4 +1,4 @@
-# .NET Core
+# .NET Core 单文件编译
 
 * 下载
 
