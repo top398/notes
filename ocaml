@@ -1,0 +1,21 @@
+# 4.08.0+ 的编译
+## cmd 解压源码
+    7z x ocaml-4.08.0.zip -or:\
+    rendir r:\ocaml-4.08.0 r:\ocaml
+    7z x flexdll-bin-0.37.zip -or:\ocaml\flexdll\
+
+## bash 环境配置
+    cd /r/ocaml
+    export PATH=/e/mingw64/bin:/r/ocaml/flexdll:$PATH
+    ./configure --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32
+
+## 编辑配置 r:\ocaml\Makefile.config
+    找到 FLEXLINK_FLAGS=-chain $(FLEXDLL_CHAIN) -stack 33554432 一行，行尾追加：
+    （空格） -L/e/mingw64/x86_64-w64-mingw32/lib -L/e/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0
+    以及：
+    prefix=C:/ocamlmgw64
+    修改安装文件夹
+
+## 编译安装
+    make world.opt
+    make install
